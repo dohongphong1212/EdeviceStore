@@ -1,0 +1,258 @@
+* {
+    margin: 0px;
+}
+
+.boxcenter {
+    width: 100%;
+}
+
+.headeradmin {
+    display: flex;
+    justify-content: space-between;
+    background-color: #428ebb;
+    border: 0px;
+    margin: 0px;
+    padding: 0px 26px;
+}
+
+.headeradmin h1 {
+    line-height: 83px;
+}
+
+.headeradmin .right {
+    line-height: 80px;
+    display: flex;
+}
+
+.menu {
+    background-color: #1a2228;
+    color: #cbcacc;
+    width: 15%;
+    border-radius: unset;
+    margin: 0px;
+}
+
+.menu ul {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    padding: 20px 20px;
+}
+
+.menu ul li a:hover {
+    color: blue;
+    font-size: 0.8vw;
+}
+
+.menu ul li a {
+    color: #CCC;
+    text-decoration: none;
+    transition: 0.5s;
+    font-size: 15px;
+    line-height: 28px;
+    padding-left: 8px;
+}
+
+.row.adddm {
+    width: 85%;
+    padding: 20px 20px;
+}
+
+input.button-add {
+    background-image: url(../images/icons8-delete-bin-20.png);
+    /* 16px x 16px */
+    background-color: transparent;
+    /* make the button transparent */
+    background-repeat: no-repeat;
+    /* make the background image appear only once */
+    background-position: 4px 3px;
+    /* equivalent to 'top left' */
+    border: none;
+    /* assuming we don't want any borders */
+    cursor: pointer;
+    /* make the cursor like hovering over an <a> element */
+    height: 16px;
+    /* make this the size of your image */
+    padding-left: 16px;
+    /* make text start to the right of the image */
+    vertical-align: middle;
+    /* align the text vertically centered */
+}
+
+input.icon {
+    background-image: url(../images/icons8-maintenance-20.png);
+    /* 16px x 16px */
+    background-color: transparent;
+    /* make the button transparent */
+    background-repeat: no-repeat;
+    /* make the background image appear only once */
+    background-position: 4px 3px;
+    /* equivalent to 'top left' */
+    border: none;
+    /* assuming we don't want any borders */
+    cursor: pointer;
+    /* make the cursor like hovering over an <a> element */
+    height: 16px;
+    /* make this the size of your image */
+    padding-left: 16px;
+    /* make text start to the right of the image */
+    vertical-align: middle;
+    /* align the text vertically centered */
+}
+
+.alert {
+    padding: 20px;
+    background-color: #f44336;
+    color: white;
+}
+
+.closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.closebtn:hover {
+    color: black;
+}
+
+.footeradmin {
+    text-align: center;
+    font-size: 15px;
+    background-color: #428ebb;
+    height: 50px;
+}
+
+.footeradmin p {
+    font-size: 16px;
+    padding: 16px;
+    color: white;
+}
+
+.menuclient {
+    display: flex;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.row.mb.menuclient {
+    background-color: #d9263c;
+    height: 44px;
+    color: white;
+    justify-content: space-between;
+    padding: 0px 64px;
+    margin: 0px;
+}
+
+.row.mb.menuclient ul {
+    line-height: 40px;
+}
+
+.row.mb.menuclient ul li {
+    padding-right: 30px;
+}
+
+.row.mb.menuclient ul li a {
+    color: white;
+    font-size: 16px;
+}
+
+.row.mb.undermenu {
+    background-color: #f12a43;
+    height: 78px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 104px;
+}
+
+.cart .fa-shopping-cart {
+    line-height: 75px;
+    border-radius: 10px 10px;
+}
+
+.cart .round {
+    border: 3px solid white;
+    border-radius: 30px 30px;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    margin: 9px 0px;
+}
+
+.cart .soluong {
+    font-size: 15px;
+}
+
+.search {
+    display: flex;
+}
+
+input[type=text] {
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+.btntim {
+    width: 20%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+.phone .round {
+    border: 3px solid white;
+    border-radius: 30px 30px;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    margin: 9px 0px;
+}
+
+.footer {
+    display: flex;
+    padding: 50px 104px;
+}
+
+.boxtitle {
+    color: white;
+    padding: 10px;
+    background-color: #969696;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border: 1px #CCC solid;
+}
+
+input.chitietsp {
+    background-color: white;
+    color: red;
+}
+
+a input.chitietsp:hover {
+    background-color: #da1818;
+    color: white;
+}
+
+input.gio {
+    background-color: white;
+    color: black;
+}
+
+input.gio:hover {
+    background-color: black;
+    color: white;
+}
